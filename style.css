@@ -1,0 +1,41 @@
+@import url('cajauno.css');
+@import url('cajados.css');
+@import url('cajatres.css');
+
+*{/*border:solid 1px; */
+    box-sizing: border-box;};
+
+    section{ display: block;
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        padding: 7%;;}
+
+.uno img{
+width: 100%;
+height: 100%;
+}
+span{ color:green;
+font-size: 20px;
+height: 40%;
+margin-top: 21px;}
+
+.menu ul {list-style: none;
+text-align: center;}
+.menu li {padding:0;
+margin: 0;}
+
+p{font-size: 20px;}
+
+
+.menu:hover{ 
+   background-color: rgb(255,255,255);
+   color:rgba(0,0,0,0.5);
+    
+
+}
+.menu p{ display: none;}
+ 
+ .menu:hover  p{
+    display: block;
+}
